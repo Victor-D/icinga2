@@ -101,6 +101,14 @@ Fix incompatibilities if any.
 * [tools/win32/configure.ps1](tools/win32/configure.ps1)
 * [tools/win32/configure-dev.ps1](tools/win32/configure-dev.ps1)
 
+#### Re-provision Build Server
+
+Even if there aren't any new releases of dependencies with versions
+hardcoded in the repos and files listed above (Boost, OpenSSL).
+
+There may be new build versions of other dependencies (VS, MSVC).
+Our CI/CD uses the latest ones automatically, but the build server doesn't.
+
 
 ## Version <a id="version"></a>
 
